@@ -5,34 +5,34 @@ import Link from "next/link";
 
 const resources = [
   {
-    title: "National Suicide Prevention Lifeline",
-    description: "Call or text 988 anytime in the US and Canada for free, confidential support from a trained crisis counselor.",
-    href: "https://988lifeline.org/",
-    cta: "Visit Website",
-  },
-  {
-    title: "Crisis Text Line",
-    description: "Text HOME to 741741 from anywhere in the US, anytime, about any type of crisis. A live, trained Crisis Counselor receives the text and responds.",
-    href: "https://www.crisistextline.org/",
-    cta: "Visit Website",
-  },
-  {
-    title: "The Trevor Project",
-    description: "The world's largest suicide prevention and crisis intervention organization for LGBTQ (lesbian, gay, bisexual, transgender, queer, and questioning) young people.",
-    href: "https://www.thetrevorproject.org/",
-    cta: "Get Support",
-  },
-  {
-    title: "NAMI (National Alliance on Mental Illness)",
-    description: "The nation's largest grassroots mental health organization dedicated to building better lives for the millions of Americans affected by mental illness.",
-    href: "https://www.nami.org/",
+    title: "KIRAN Mental Health Helpline",
+    description: "A 24/7 toll-free mental health rehabilitation helpline (1800-599-0019) launched by the Ministry of Social Justice and Empowerment.",
+    href: "https://www.google.com/search?q=KIRAN+Mental+Health+Helpline",
     cta: "Learn More",
   },
   {
-    title: "Psychology Today Therapist Finder",
-    description: "A comprehensive directory to find licensed and verified therapists, psychologists, and counselors near you.",
-    href: "https://www.psychologytoday.com/us/therapists",
-    cta: "Find a Therapist",
+    title: "Vandrevala Foundation",
+    description: "A non-profit organization in India that provides free psychological counseling and crisis mediation. Call 9999666555.",
+    href: "https://www.vandrevalafoundation.com/",
+    cta: "Visit Website",
+  },
+  {
+    title: "iCALL Psychosocial Helpline",
+    description: "A helpline by TISS that provides free telephone and email-based counseling services for psychosocial support. Call 022-25521111.",
+    href: "https://icallhelpline.org/",
+    cta: "Visit Website",
+  },
+  {
+    title: "Fortis Stress Helpline",
+    description: "A 24x7 helpline by Fortis Healthcare for people experiencing stress, anxiety, and depression. Call +91-8376804102.",
+    href: "https://www.fortishealthcare.com/india/speciality-detail/mental-health-and-behavioural-sciences",
+    cta: "Get Support",
+  },
+  {
+    title: "Indian Association of Clinical Psychologists",
+    description: "A directory to find registered clinical psychologists across India for professional help.",
+    href: "https://iacp.in/iacp-register-of-members/",
+    cta: "Find a Psychologist",
   },
   {
     title: "Headspace",
@@ -50,7 +50,7 @@ export default function ResourcesPage() {
           Helpful Resources
         </h1>
         <p className="max-w-2xl mx-auto mt-4 text-muted-foreground md:text-lg">
-          While KindredAI is here to listen, sometimes professional help is the best next step. Here are some trusted resources.
+          While our AI is here to listen, sometimes professional help is the best next step. Here are some trusted resources available in India.
         </p>
       </div>
       <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">

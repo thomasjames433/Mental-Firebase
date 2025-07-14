@@ -31,10 +31,10 @@ export default function Home() {
         <div className="container px-4 md:px-6 text-center">
           <div className="max-w-3xl mx-auto space-y-4">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl font-headline animate-in fade-in slide-in-from-bottom-5 duration-1000">
-              A safe space to talk.
+              A safe space for NITC students.
             </h1>
             <p className="text-muted-foreground md:text-xl animate-in fade-in slide-in-from-bottom-5 duration-1000 animation-delay-200">
-              KindredAI offers a gentle, judgment-free zone to explore your feelings with a compassionate AI companion.
+              NITC-MindCare offers a gentle, judgment-free zone to explore your feelings with a compassionate AI companion.
             </p>
             <div className="animate-in fade-in slide-in-from-bottom-5 duration-1000 animation-delay-400">
               <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
@@ -51,9 +51,9 @@ export default function Home() {
       <section className="w-full py-20 md:py-24">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-headline">Why Choose KindredAI?</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-headline">Why Choose NITC-MindCare?</h2>
             <p className="max-w-2xl mx-auto mt-2 text-muted-foreground md:text-lg">
-              We're here to support your mental wellness journey.
+              We're here to support your mental wellness journey at NIT Calicut.
             </p>
           </div>
           <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-3">

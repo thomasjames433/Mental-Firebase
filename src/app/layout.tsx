@@ -4,8 +4,8 @@ import { Header } from '@/components/layout/header';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'KindredAI',
-  description: 'Your compassionate AI companion for mental wellness.',
+  title: 'NITC-MindCare',
+  description: 'Your compassionate AI companion for mental wellness at NIT Calicut.',
 };
 
 export default function RootLayout({
