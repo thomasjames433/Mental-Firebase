@@ -39,29 +39,3 @@ Once the dependencies are installed and the environment variables are set, you c
 ```bash
 npm run dev
 ```
-
-This will start the application, and you can view it in your web browser at [http://localhost:9002](http://localhost:9002).
-
-## Deploying to Vercel
-
-Vercel is a great platform for hosting Next.js applications.
-
-### 1. Push to a Git Repository
-
-Vercel deploys directly from a Git repository (like GitHub, GitLab, or Bitbucket). If you haven't already, push your project code to a new repository on one of these platforms.
-
-### 2. Import Project on Vercel
-
-1.  Sign up for a free Vercel account.
-2.  From your Vercel dashboard, click "Add New..." -> "Project".
-3.  Import the Git repository you just created. Vercel will automatically detect that it's a Next.js project.
-
-### 3. Configure Environment Variables
-
-During the import process, Vercel will ask you to configure the project.
-
-1.  Expand the "Environment Variables" section.
-2.  Add the `GOOGLE_API_KEY` with the same value you used in your `.env.local` file. This is crucial for the AI features to work in production.
-3.  Click "Deploy".
-
-Vercel will now build and deploy your application. Once it's done, you'll be given a public URL where you can access your live site!
