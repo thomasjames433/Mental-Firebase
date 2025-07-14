@@ -97,16 +97,28 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="-mt-2 w-full px-4 md:px-6">
-      <div className="text-white text-sm md:text-base text-right">
-        <p className="font-semibold">For enquiries contact Thomas James</p>
-        <p>
-          <a href="mailto:thomaspjames433@gmail.com" className="underline hover:opacity-80">
-            thomaspjames433@gmail.com
-          </a>
-        </p>
-      </div>
-    </footer>
+      <footer className="w-full px-4 md:px-6 mt-8 text-white text-sm md:text-base">
+  <div className="flex flex-col md:flex-row justify-between items-center gap-4 border-t border-white/20 pt-6">
+    {/* Disclaimer - Centered on small screens, left on larger screens */}
+    <p className="text-center md:text-left max-w-2xl">
+      This site is independently developed and is not endorsed by or affiliated with the National Institute of Technology Calicut. Use at your own discretion.
+    </p>
+
+    {/* Contact - Right aligned on larger screens */}
+    <div className="text-right">
+      <p className="font-semibold">For enquiries contact Thomas James</p>
+      <p>
+        <a
+          href="mailto:thomaspjames433@gmail.com"
+          className="underline hover:opacity-80"
+        >
+          thomaspjames433@gmail.com
+        </a>
+      </p>
+    </div>
+  </div>
+</footer>
+
     </div>
   );
 }
