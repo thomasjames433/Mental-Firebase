@@ -1,7 +1,9 @@
+import { Analytics } from "@vercel/analytics/next"
 import type {Metadata} from 'next';
 import './globals.css';
 import { Header } from '@/components/layout/header';
 import { Toaster } from "@/components/ui/toaster"
+
 
 export const metadata: Metadata = {
   title: 'NITC-MindCare',
@@ -26,6 +28,7 @@ export default function RootLayout({
           {children}
         </main>
         <Toaster />
+        <Analytics />
       </body>
     </html>
   );
