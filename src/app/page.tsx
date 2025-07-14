@@ -1,6 +1,16 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { HeartHandshake, Lock, MessageCircle, Sparkles } from "lucide-react";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import {
+  HeartHandshake,
+  Lock,
+  MessageCircle,
+  Sparkles,
+} from "lucide-react";
 import Link from "next/link";
 
 const features = [
@@ -85,6 +95,18 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="-mt-2 w-full px-4 md:px-6">
+      <div className="text-white text-sm md:text-base text-right">
+        <p className="font-semibold">For enquiries contact Thomas James</p>
+        <p>
+          <a href="mailto:thomaspjames433@gmail.com" className="underline hover:opacity-80">
+            thomaspjames433@gmail.com
+          </a>
+        </p>
+      </div>
+    </footer>
     </div>
   );
 }
